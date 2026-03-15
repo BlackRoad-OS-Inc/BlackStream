@@ -1,74 +1,41 @@
-> ⚗️ **Research Repository**
->
-> This is an experimental/research repository. Code here is exploratory and not production-ready.
-> For production systems, see [BlackRoad-OS](https://github.com/BlackRoad-OS).
+<div align="center">
 
----
+<img src="https://images.blackroad.io/pixel-art/road-logo.png" alt="BlackRoad OS" width="80" />
 
 # BlackStream
 
-BlackStream is a comprehensive streaming aggregation platform that solves the modern entertainment discovery problem. This app serves as a single interface for users to discover, track, and get intelligent recommendations across all their streaming services, eliminating platform fragmentation and decision fatigue.
+**BlackStream — Streaming content aggregation platform with 5 microservices. API gateway, content aggregator, recommendation engine (collaborative filtering), sync service, user auth. Node.js + Express.**
 
-## Project Structure
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad_OS-Pave_Tomorrow-FF2255?style=for-the-badge&labelColor=000000)](https://blackroad.io)
+[![License](https://img.shields.io/badge/License-Proprietary-FF6B2B?style=for-the-badge&labelColor=000000)](./LICENSE)
+[![Edge AI](https://img.shields.io/badge/Edge_AI-52_TOPS-00D4FF?style=for-the-badge&labelColor=000000)](https://github.com/BlackRoad-OS-Inc)
 
-```
-BlackStream/
-├── frontend/            # Client-side applications (web, mobile)
-│   ├── web-app/        # React web application
-│   ├── mobile-ios/     # React Native iOS app (placeholder)
-│   ├── mobile-android/ # React Native Android app (placeholder)
-│   └── shared-components/ # Shared UI components and utilities
-├── backend/             # Server-side microservices
-│   ├── api-gateway/    # Entry point for all client requests (Express)
-│   ├── recommendation-engine/ # ML recommendations (placeholder)
-│   ├── content-aggregator/    # Aggregates catalogs across platforms (placeholder)
-│   ├── sync-service/   # Synchronisation and co-watching (placeholder)
-│   └── user-service/   # Authentication and user profiles (placeholder)
-├── data/                # Database schemas, migrations, and seed data
-│   ├── schemas/
-│   ├── migrations/
-│   └── seed-data/
-├── infrastructure/      # Deployment scripts
-│   ├── docker/
-│   ├── kubernetes/
-│   └── terraform/
-├── docs/                # Documentation
-│   ├── api-docs/
-│   ├── architecture/
-│   └── user-guides/
-└── assets/
-    └── images/         # Logos and marketing assets
-```
+</div>
+
+<div align="center">
+<sub>Part of the <a href="https://blackroad.io">BlackRoad OS</a> ecosystem — sovereign edge AI infrastructure</sub>
+</div>
 
 ---
 
-This project is under active development. See the `docs/` directory for architecture, API usage, and user guides.
+## Overview
+
+BlackStream — Streaming content aggregation platform with 5 microservices. API gateway, content aggregator, recommendation engine (collaborative filtering), sync service, user auth. Node.js + Express.
+
+## License
+
+**Proprietary** — Copyright © 2024–2026 [BlackRoad OS, Inc.](https://blackroad.io) All rights reserved.
+
+Founder & CEO: **Alexa Louise Amundson** · Delaware C-Corp
+
+See [LICENSE](./LICENSE) for full terms.
 
 ---
 
-## 📜 License & Copyright
+<div align="center">
 
-**Copyright © 2026 BlackRoad OS, Inc. All Rights Reserved.**
+**BlackRoad OS — Pave Tomorrow.**
 
-**CEO:** Alexa Amundson
+[blackroad.io](https://blackroad.io) · [GitHub](https://github.com/BlackRoad-OS-Inc) · [Brand](https://brand.blackroad.io)
 
-**PROPRIETARY AND CONFIDENTIAL**
-
-This software is the proprietary property of BlackRoad OS, Inc. and is **NOT for commercial resale**.
-
-### ⚠️ Usage Restrictions:
-- ✅ **Permitted:** Testing, evaluation, and educational purposes
-- ❌ **Prohibited:** Commercial use, resale, or redistribution without written permission
-
-### 🏢 Enterprise Scale:
-Designed to support:
-- 30,000 AI Agents
-- 30,000 Human Employees
-- One Operator: Alexa Amundson (CEO)
-
-### 📧 Contact:
-For commercial licensing inquiries:
-- **Email:** blackroad.systems@gmail.com
-- **Organization:** BlackRoad OS, Inc.
-
-See [LICENSE](LICENSE) for complete terms.
+</div>
