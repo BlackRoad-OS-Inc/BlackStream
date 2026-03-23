@@ -1,3 +1,11 @@
+# BlackStream
+
+> BlackStream — Streaming content aggregation platform with 5 microservices. API gateway, content aggregator, recommendation engine (collaborative filtering), sync service, user auth. Node.js + Express. (BlackRoad integration)
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+---
+
 <div align="center">
 
 <img src="https://images.blackroad.io/pixel-art/road-logo.png" alt="BlackRoad OS" width="80" />
